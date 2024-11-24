@@ -1,29 +1,35 @@
-# Shakespearean Insulter Browser Extension
+# Summifier 📄✨
 
-Transform any website's text into Shakespearean insults! This Chrome extension takes regular web text and, with the click of a button, turns it into the sort of colorful, witty insults the Bard himself would be proud of. Perfect for adding a touch of humor and vintage flair to your browsing experience!
+Summifier is a powerful text summarization browser extension tool designed to condense large blocks of text into concise summaries. Whether you're dealing with articles, reports, or any lengthy content, Summifier leverages advanced natural language processing (NLP) techniques to generate clear and accurate summaries, saving you time and effort.
 
-## Features
+## Key Features:
+- **Accurate Summarization**: Produces high-quality summaries that retain the essential information from the original text using Facebook's Bart model.
+- **Key Points Highlighting**: Automatically extracts and highlights important points from the summarized text.
+- **Easy-to-Use Interface**: Simple and intuitive user interface with loading indicators and clear instructions.
+- **Context Menu Integration**: Right-click to summarize any selected text on any webpage.
 
-- **Whimsical Insults:** Replaces regular phrases with Shakespearean-style insults.
-- **Easy to Use:** One-click to activate the insult transformation on any web page.
-- **Vintage Design:** A royal popup design with rich colors and a parchment-like look.
-  
-## Preview
-![image](https://github.com/user-attachments/assets/0a81b264-f4e1-4eed-ad56-65bbfbf9a64b)
-## Installation Instructions
+## Technologies Used:
+- **JavaScript**
+- **Natural Language Processing (NLP)**
+- **Transformers (Hugging Face)**
 
-1. **Download the Repository:**
-   - Clone this repository or download it as a ZIP file and extract it.
+## Getting Started:
+1. Clone the repository: `git clone https://github.com/yourusername/Summifier.git`
+2. Go to the folder: `cd Summifier`
+3. Set up your Hugging Face API key:
+   - Visit [Hugging Face](https://huggingface.co/)
+   - Sign up or log in to your account
+   - Go to Settings → Access Tokens
+   - Create a new Read token
+   - Copy your API key for later use
+4. Load the extension in Chrome:
+   - Navigate to `chrome://extensions/`
+   - Enable "Developer mode" in the top right corner
+   - Click "Load unpacked" and select the `Summifier` directory
+   - Click the extension icon and paste your API key when prompted
 
-2. **Open Chrome Extensions:**
-   - Go to `chrome://extensions/` in your Chrome browser.
-
-3. **Enable Developer Mode:**
-   - Toggle **Developer mode** on in the top right corner.
-
-4. **Load Unpacked Extension:**
-   - Click **Load unpacked** and select the folder where this repository is located.
-
-5. **Pin and Launch:**
-   - Pin the "Shakespearean Insulter" extension to your Chrome toolbar for quick access.
-   - Open any webpage, click on the extension icon, and hit "Unleash the Insults" to activate!
+## Usage:
+1. Select any text on a webpage
+2. Right-click and choose "Summarize selected text" from the context menu
+3. Wait for the loading indicator while text is being processed
+4. View the generated summary and highlighted key points in the popup
